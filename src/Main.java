@@ -6,11 +6,15 @@ public class Main {
         char studentFirstInitial = 'T';
         char studentLastInitial = 'C';
         boolean hasPerfectAttendence = true;
+        String studentFirstName = "Thays";
+        String studentLastName = "Casado";
 
         System.out.println(studentAge);
         System.out.println(studentGPA);
         System.out.println(studentFirstInitial);
         System.out.println(studentLastInitial);
         System.out.println(hasPerfectAttendence);
+        System.out.println(studentFirstName);
+        System.out.println(studentLastName);
     }
 }
