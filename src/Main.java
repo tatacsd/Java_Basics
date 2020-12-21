@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         //System.out.println("Hello World from the Intelij IDE");
@@ -12,6 +14,14 @@ public class Main {
         boolean hasPerfectAttendence = true;
 
         System.out.println(studentFirstName + " " + studentLastName + " has a GPA of " + studentGPA);
+        System.out.println("What do you want to update it to?");
+
+        Scanner input = new Scanner(System.in);
+        studentGPA = input.nextDouble();
+
+        System.out.println(studentFirstName + " " + studentLastName + " now has a GPA of " + studentGPA);
+
+
 
         /*
         System.out.println(studentAge);
