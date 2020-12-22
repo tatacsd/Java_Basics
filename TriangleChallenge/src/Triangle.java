@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
-public class ChallengeTriangle {
-
+public class Triangle {
     public static void main(String[] args) {
 
         System.out.println("Let's calculate the area of a triangle");
@@ -20,11 +18,11 @@ public class ChallengeTriangle {
         double height = input.nextDouble();
         while (height <= 0) {
             System.out.println("That's invalid. Please input the base of the triangle (in inches).");
-            base = input.nextDouble();
+            height = input.nextDouble();
         }
 
         double area = (base * height) / 2;
-        System.out.println("The area is " + height);
+        System.out.println("The area is " + area);
 
     }
 }
