@@ -1,5 +1,10 @@
 
 public class Triangle {
+	// static variable
+	static int numOfSides = 3;
+	
+	
+	// Instance Variables
 	double base;
 	double height;
 	double sideLenOne;

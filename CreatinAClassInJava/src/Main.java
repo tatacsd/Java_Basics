@@ -17,6 +17,22 @@ public class Main {
 		// Triangle.findArea() --> Math.pow
 		// instance method vs. class method
 		
+		//it can also be accessed outside of the class Triangle
+		System.out.println(triangleA.sideLenThree);
+		System.out.println(triangleB.base);
+		
+		/*
+		 * Non-static vs. static variables
+		 * 
+		 * non-static -> the values are not the same for the same object
+		 * for this reason the values changes depending on the triangle instance (in this case).
+		 *
+		 * 
+		 * static -> do not change per instance, it holds the value for the whole class to be used.
+		 * 
+		 */
+		// To access a static variable use the class name + dot + the variable name
+		System.out.println(Triangle.numOfSides);
 	}
 
 }
