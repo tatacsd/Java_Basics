@@ -18,7 +18,7 @@ public class StudentProfile {
 	}
 	
 	//Methods
-	public int incrementExpectedGraduationYear() {
-		return ++this.expectedYearGraduation;
+	public void incrementExpectedGraduationYear() {
+		++this.expectedYearGraduation;
 	}
 }
