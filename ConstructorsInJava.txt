@@ -1,0 +1,29 @@
+What is an instance?
+- an instance is an object created from a class blueprint
+- from blue prints it is possible to create an object
+
+
+Constructors have the same name as the class
+
+Ex.:
+public Triangle(){
+
+}
+
+"this" key word is used to access the attribute variable.
+
+Ex.:
+public Triangle(double base, double height, double sideLenOne, double sideLenTwo, double sideLenThree){
+  this.base = base;
+  this.height = height;
+  this.sideLenOne = sideLenOne;
+  this.sideLenTwo = sideLenTwo;
+  this.sideLenThree = sideLenThree;
+}
+
+need to use the "new" keyword
+
+Triangle triangleA = new Triangle(15, 8, 15, 8, 17);
+Triangle triangleB =  new Triangle (2, 3, 4, 4, 4);
+
+Trinagle above is a type of data type now. 
