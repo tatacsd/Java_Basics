@@ -11,3 +11,11 @@ Java is one of the top five programming languages, and is used for websites, emb
 
 [LinkedIn Java Basics]: https://www.linkedin.com/learning/learning-java-4/welcome-to-learning-java?u=2105105
 
+
+#### Some possible courses:
+[Java 11+ Essential Training]: https://www.linkedin.com/learning/java-11-plus-essential-training/what-kind-of-software-can-you-create?u=2105105
+
+[Code Clinic: Java]: https://www.linkedin.com/learning/code-clinic-java-2/welcome?u=2105105
+
+[Programming Foundation: Data structures]: https://www.linkedin.com/learning/programming-foundations-data-structures-2/understand-data-structures?u=2105105
+
